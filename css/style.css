@@ -1,0 +1,17 @@
+
+table{width: 80%;
+    margin: auto;
+    max-width: 1500px;
+    min-width: 600px;
+}
+
+table tr{
+    height:140%;
+}
+
+
+table tr:nth-child(odd){background::hsl(0,0%,100%);}
+table tr:nth-child(2n+1){background:hsl(200,50%,70%);}
+
+
+table tr:hover{ background: #FCF; }
